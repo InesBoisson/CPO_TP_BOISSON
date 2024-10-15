@@ -15,6 +15,14 @@ public class TP2_Bieres_boisson {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        BouteilleBiere uneBiere = new BouteilleBiere();
+        uneBiere.nom = "Cuvée des trolls";
+        uneBiere.degreAlcool = 7.0 ;
+        uneBiere.lireEtiquette();
+        
+
+
     }
     
 }
