@@ -31,3 +31,4 @@ public class TP2_Bieres_boisson {
         System.out.println(quatriemeBiere);  // Affiche l'état de la quatrième bière (non décapsulée)
     }
 }
+
