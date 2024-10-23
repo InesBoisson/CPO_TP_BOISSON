@@ -15,6 +15,7 @@ public class TP2_convertisseurObjet_Boisson {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+     // Création de deux objets Convertisseur
         Convertisseur convertisseur1 = new Convertisseur();
         Convertisseur convertisseur2 = new Convertisseur();
 
