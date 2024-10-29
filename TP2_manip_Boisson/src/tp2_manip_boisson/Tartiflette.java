@@ -9,5 +9,9 @@ package tp2_manip_boisson;
  * @author Inès
  */
 public class Tartiflette {
-    
+    public int nbCalories;
+    public Tartiflette (int nbCalories){
+        this.nbCalories = nbCalories;
+    } 
+
 }
