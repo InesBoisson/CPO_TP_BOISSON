@@ -35,7 +35,8 @@ public class TP2_relation_1_Boisson {
         bob.liste_voitures[0] + " la 2e voiture de Bob est " + bob.liste_voitures[1] ) ;
         System.out.println("la premiere voiture de Reno est " +
         reno.liste_voitures[0] + " la 2e voiture de Reno est " + reno.liste_voitures[1] + " la 3e voiture de Reno est " + reno.liste_voitures[2]) ;
-
+        
+        reno.ajouter_voiture(uneClio);
     }
 
 }
