@@ -13,7 +13,20 @@ public class Baton extends Arme {
 
     public Baton(int age, String nom, int niveauAttaque) {
         super(nom, niveauAttaque);
-        this.age = age;
+        if (age < 100) {
+            this.age = age;
+        } else {
+            this.age = 99; // Limiter l'âge à 99 si l'âge est supérieur
+        }
+    }
+    public int getAge() {
+        return this.age;
+    }
+
+
+    @Override
+    public String toString() {
+        return super.toString() + ", Âge : " + this.age;
     }
     
 }
