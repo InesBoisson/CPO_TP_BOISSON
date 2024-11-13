@@ -1,3 +1,5 @@
+package tp3_heroic_fantasy_boisson;
+
 // Classe abstraite Arme
 public abstract class Arme {
     // Attributs privés
